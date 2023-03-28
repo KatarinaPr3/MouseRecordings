@@ -1,5 +1,7 @@
+
 # MouseRecordings
 Powerful tool that allows users to simulate human-like mouse movements. 
+
 
 ## Saving Mouse Movement
 With its ability to record and save mouse movements into path folders categorized into very long, medium, short and very short paths, this program can help users generate a path simulation from the current mouse position to the new button position.
