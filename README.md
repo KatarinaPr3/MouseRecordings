@@ -3,16 +3,24 @@ Powerful tool that allows users to simulate human-like mouse movements.
 
 https://user-images.githubusercontent.com/79110651/228316832-e6c9ec19-7a05-42b9-8d68-fbcfa7e1146f.mp4
 
+## Opening Mouse Recordings
+When you enter the application, you will be prompted to enter your name. This is necessary to create a unique folder on your computer where all the paths will be saved. The program creates four subfolders - Long, Medium, Short, and Very Short - within your personal folder to categorize the paths according to their length.
+This ensures that all the paths you record are stored in one central location, making it easy to access and analyze your data.
+
+This initial setup is essential as it ensures that all the paths you record are saved in a consistent and organized manner. By categorizing the paths according to their length, you can quickly identify which paths are suitable for different scenarios and optimize your mouse movements accordingly.
+Overall, the setup process in Mouse Recordings is simple and intuitive, ensuring that even novice users can start recording and simulating mouse movements in no time.
+
 
 ## Saving Mouse Movement
 With its ability to record and save mouse movements into path folders categorized into very long, medium, short and very short paths, this program can help users generate a path simulation from the current mouse position to the new button position.
 
 
-## Random button positioning
+## Random Button Positioning
 The program's interface displays a button at a random position, and users must move the mouse to that button to create a path. When recording mouse movements, users can also set the offset of the new button coordinates using a normal/Gaussian distribution. This feature adds an element of randomness to the generated paths, making them more realistic and human. By adjusting the deviation settings, users can control the level of randomness in their simulated paths, allowing them to simulate more realistic and varied movements.
 
 
 ## Simulating Mouse Movement
+After clicking the "Simulate" button, the mouse is no longer a human, but a computer.
 Using the "Simulate" feature, users can generate a simulation of their desired path from the current mouse position to the new button position. The simulation is identical to the mouse path, but **transformed**, **rotated** and **scaled** to simulate the **same path with different start and end coordinates**.
 Once the simulation is started, Mouse Recordings randomly loads paths from the folder where the paths are saved. When one path simulation ends, there is a pause of "n" seconds, after which the next randomly selected path begins. 
 
