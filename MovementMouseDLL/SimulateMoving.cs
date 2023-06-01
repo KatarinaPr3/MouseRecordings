@@ -1,13 +1,5 @@
 ﻿using Newtonsoft.Json;
-using System.Collections.ObjectModel;
 using System.Diagnostics;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Forms;
 
 namespace MouseMovementsDLL
 {
